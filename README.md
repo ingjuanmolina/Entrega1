@@ -1,2 +1,3 @@
-# Entrega1
-Primera entrega del curso introducción a Node.JS mediante el desarrollo de un proyecto ágil
+Primera entrega del curso de introducción a Node.JS mediante el desarrollo de un proyecto ágil
+
+Ing. Juan Carlos Molina

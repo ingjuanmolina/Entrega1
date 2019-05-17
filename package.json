@@ -1,0 +1,22 @@
+{
+  "name": "entrega1",
+  "version": "1.0.0",
+  "description": "Primera entrega",
+  "main": "principal.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ingjuanmolina/entrega1.git"
+  },
+  "author": "Juan Carlos Molina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ingjuanmolina/entrega1/issues"
+  },
+  "homepage": "https://github.com/ingjuanmolina/entrega1#readme",
+  "dependencies": {
+    "yargs": "^13.2.4"
+  }
+}
