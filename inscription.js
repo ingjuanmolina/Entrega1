@@ -1,3 +1,8 @@
+//Set express config
+
+const express = require('express')
+const app = express() 
+
 //Object to manage filesystem functions
 let fs = require('fs');
 
@@ -18,6 +23,12 @@ se ha matriculado en el curso llamado ${course.name},
 que tiene una duración de ${course.semesters} semestres 
 y un valor de ${course.price} pesos`;
 
+app.get('/', function (req, res) {
+
+    res.send(text)
+  })
+   
+  app.listen(3000)
         fs.writeFile('Matricula.txt', text, (err) => {
             if (err) throw (err);
             console.log('El estudiante se ha registrado correctamente en el curso y los datos se han almacenado en el documento Matricula.txt.');
